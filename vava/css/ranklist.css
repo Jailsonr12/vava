@@ -1,0 +1,247 @@
+@charset "UTD-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    position: fixed;
+    background-image: url(../_img/ranklist/wp7573960-valorant-4k-pc-wallpapers\ 1.png);
+    position: relative;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    border-top: 40px solid #2a282c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+header div {
+    display: flex;
+}
+
+header div figure img {
+    width: 40px;
+}
+
+.inicio h4 {
+    margin-top: -35px;
+}
+
+header a.inicio {
+    display: flex;
+    border-top: 40px solid #e6484f;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin-top: -40px;
+    display: flex;
+}
+
+nav img {
+    padding-left: 30px;
+}
+
+.primeirofiguras {
+    display: flex;
+}
+
+.titile {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.titile h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #EA4B4B;
+}
+
+.divisoria {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.top h6 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #EA4B4B;
+
+}
+
+.rectangle {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tabela {
+    display: flex;
+}
+
+
+.tabela {
+    text-decoration: none;
+}
+
+.ajuste {
+    background-color: #2a282c91;
+    display: flex;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nome img {
+    width: 60px;
+    height: auto;
+}
+
+.nome {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.nome h2 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}
+
+.coluna h2 {
+    margin-top: 10px;
+    padding: 20PX;
+}
+
+.coluna img {
+    height: 30px;
+}
+
+.boxconteudo {
+    background: rgba(102, 102, 102, 0.31);
+}
+
+.boxconteudo {
+    margin-bottom: 15px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+boxconteudoimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxconteudoimg img {
+    padding-right: 45px;
+    padding-left: 40px;
+    height: 69px;
+    background-image: url(../_img/ranklist/Rectangle\ 17.png);
+    position: relative;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position-x: -10px;
+    background-size: 160px;
+    background-position-y: 7px;
+}
+
+.personagem {
+    margin-top: 6px;
+}
+
+.coluna h2 {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F5F69C;
+}
+
+.ajuste {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+h2.Win{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #14FF00;
+}
+h2.loss{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FF0000;
+    
+}
+h2.naosei{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00B2FF;
+}

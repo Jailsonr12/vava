@@ -1,0 +1,338 @@
+@charset "UTD-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    position: fixed;
+    background-image: url(../_img/campeoes/Background.png);
+    position: relative;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    border-top: 40px solid #2a282c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+header div {
+    display: flex;
+}
+
+header div figure img {
+    width: 40px;
+}
+
+.inicio h4 {
+    margin-top: -35px;
+}
+
+header a.inicio {
+    display: flex;
+    border-top: 40px solid #e6484f;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin-top: -40px;
+    display: flex;
+}
+
+nav img {
+    padding-left: 30px;
+}
+
+.primeirofiguras {
+    display: flex;
+}
+
+
+.boxtitleandconteudo {
+    border-right: 1px solid #FFFFFF;
+}
+
+.resumo {
+    width: 255px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.boxtitle {
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.boxconteudo {
+    display: flex;
+    margin-right: 20px;
+}
+
+.conteudoesquerda {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.boxconteudo h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F9AFF6;
+}
+
+.title h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+.title {
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.title h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F9AFF6;
+
+}
+
+.boxconteudo h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.conteudodireita {
+    text-align: right;
+}
+
+main {
+    margin-bottom: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.centro {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.resumo {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.name {
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.skin img {
+    width: 320px;
+    height: auto;
+}
+
+/* Habilidade */
+
+.habilidade {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.titlehabilidade h6 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+.name h6 {
+    display: flex;
+    justify-content: center;
+}
+
+.titlehabilidade {
+    margin-bottom: 20px;
+}
+
+.titlehabilidade h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #F9AFF6;
+
+}
+
+.skin {
+    box-shadow:  #f1f1f1;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.sobra {
+    margin-top: -632px;
+    box-shadow: 10px #5a0757e5;
+    margin-left: -60px;
+    position: absolute;
+    width: 320px;
+    border-left: 60px solid #f9aff600;
+    border-right: 60px solid #00000000;
+    border-bottom: 630px solid #5f035c1c;
+    transform: rotate(180deg);
+}
+
+.boxtitleandhabilidade {
+    border-left: 1px solid #FFFFFF;
+    box-shadow: 2px #FFFFFF;
+    padding-left: 20px;
+}
+
+.habilidade {
+    width: 240px;
+}
+
+.boxhabilidade {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    background-color: #2a282c7c;
+    margin-right: 10px;
+}
+
+.poder {
+    display: flex;
+
+}
+
+.boxhabilidade {
+    padding: 5px;
+}
+
+.info {
+    border-bottom: 1px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.infoselect {
+    background-color: #e4b9b949;
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #070000;
+}
+
+.primeirotexto {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    color: #F9AFF6;
+}
+
+.segundotextotitulo {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.segundotexto {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 5px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.cabecafooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setinha{
+    padding-top: 10px;
+    position: relative;
+    margin: -20px;
+}
+.allpersonagem{
+    display: flex;
+    justify-content: center;
+}
+.personagem{
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

@@ -1,0 +1,60 @@
+@charset "UTD-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    position: fixed;
+    background-image: url(../_img/rank/valorant-nawpic-4\ 1\ \(1\).png);
+    position: relative;
+    background-size: cover;
+}
+header {
+    display: flex;
+    border-top: 40px solid #2a282c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 500px;
+        margin-right: 500px;
+}
+header div{
+    display: flex;
+}
+header div figure img{ 
+    width: 40px;
+}
+.inicio h4{
+    margin-top: -35px;
+}
+
+header a.inicio{
+    display: flex;
+    border-top: 40px solid #e6484f;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+nav {
+    margin-top: -40px;
+    display: flex;
+}
+nav img {
+    padding-left: 30px;
+}
+.primeirofiguras{
+    display: flex;
+}
+
+

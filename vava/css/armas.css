@@ -1,0 +1,334 @@
+@charset "UTD-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    position: fixed;
+    background-image: url(../_img/armas/wp9724291-valorant-4k-pc-wallpapers\ 1.png);
+    position: relative;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    border-top: 40px solid #2a282c;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+header div {
+    display: flex;
+}
+
+header div figure img {
+    width: 40px;
+}
+
+.inicio h4 {
+    margin-top: -35px;
+}
+
+header a.inicio {
+    display: flex;
+    border-top: 40px solid #e6484f;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -40px;
+    font-size: 26px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    margin-top: -40px;
+    display: flex;
+}
+
+nav img {
+    padding-left: 30px;
+}
+
+.primeirofiguras {
+    display: flex;
+}
+
+
+/* MAIN */
+
+.titile {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.titile h6 {
+    z-index: -1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #EA4B4B;
+}
+
+.divisoria {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+}
+
+.rectangle {
+    padding-left: 10px;
+    padding-right: 10px;
+    transform: rotate(45deg);
+    height: 20px;
+}
+
+/* ARMAS */
+
+.texto {
+    z-index: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.textoum {
+    background: #2a282c;
+    display: flex;
+    margin-left: -50px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.armas {
+    z-index: 1;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.boasorteum {
+    margin-left: -10px;
+    margin-top: 70px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+}
+
+/* dois */
+.textodois {
+    margin-top: -45px;
+    background: #2a282c;
+    display: flex;
+    margin-right: -10pxz;
+    margin-left: -10px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.titulesobredois {
+    margin-left: 34px;
+}
+
+/* tres */
+.textotres {
+    margin-top: 25px;
+    background: #2a282c;
+    display: flex;
+    margin-right: -10pxz;
+    margin-left: -10px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.titulesobretres {
+    margin-left: 80px;
+}
+
+/* quatro */
+.textoquatro {
+    margin-top: -30px;
+    background: #2a282c;
+    display: flex;
+    margin-right: -10pxz;
+    margin-left: px;
+    justify-content: center;
+    padding: 5px;
+    border: 1px solid rgb(150, 145, 145);
+}
+
+.titulesobrequatro {
+    margin-left: -5px;
+}
+
+/* nome Arma */
+
+.nomearma {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.nomearma h2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(150, 145, 145);
+    width: 300px;
+}
+
+.luzz {
+    display: flex;
+    justify-content: center;
+    margin-top: -353px;
+    box-shadow: 10px #5a0757e5;
+    position: absolute;
+    width: 300px;
+    border-left: 100px solid #f9aff600;
+    border-right: 100px solid #00000000;
+    border-bottom: 430px solid #ee070736;
+    transform: rotate(180deg);
+}
+
+.selectarms {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+.arma img {
+    background: #2a282c;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.selectarms {
+    display: flex;
+}
+
+.outrasArmasesquerda {
+    margin-right: 0px;
+    margin-top: 80px;
+    display: flex;
+}
+
+.outrasArmasdireita {
+    margin-top: 80px;
+    display: flex;
+}
+
+.linha {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 406px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.armasnaoselectesquerda {
+    padding-right: 162px;
+}
+
+.armasnaoselectdireita {
+    padding-left: 163px;
+}
+
+font {
+    display: flex;
+
+}
+
+.armasnaoselectesquerda img {
+    background: #2a282c;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    display: flex;
+}
+
+.armasnaoselectdireita img {
+    background: #2a282c;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    display: flex;
+}
+
+.mira {
+    display: flex;
+    position: absolute;
+
+}
+
+.miradois {
+    margin-top: 20px;
+    width: 149px;
+    height: 149px;
+    left: 43px;
+    top: 477px;
+}
+.miraum{
+    width: 100px;
+height: 100px;
+left: 192px;
+top: 262px;
+
+}
+.miratres{
+    width: 72px;
+height: 72px;
+left: 332px;
+top: 462px;
+
+}
+.miraquatro{
+    width: 100px;
+height: 100px;
+left: 1080px;
+top: 544px;
+}
+
+.miracincos{
+    width: 126px;
+    height: 126px;
+    left: 1219px;
+    top: 129px;
+}
+.miraseis{
+    width: 47px;
+    height: 47px;
+    left: 1354px;
+    top: 515px;
+}
